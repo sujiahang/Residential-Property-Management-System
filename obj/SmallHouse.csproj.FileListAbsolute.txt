@@ -1,5 +1,0 @@
-E:\项目\未分类\SmallHouse_51aspx\obj\Debug\ResolveAssemblyReference.cache
-E:\项目\未分类\SmallHouse_51aspx\bin\SmallHouse.dll
-E:\项目\未分类\SmallHouse_51aspx\bin\SmallHouse.pdb
-E:\项目\未分类\SmallHouse_51aspx\obj\Debug\SmallHouse.dll
-E:\项目\未分类\SmallHouse_51aspx\obj\Debug\SmallHouse.pdb
