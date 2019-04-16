@@ -1,0 +1,45 @@
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+.ts {
+	FONT-SIZE: 12px; LINE-HEIGHT: 14px
+}
+.tl {
+	FONT-SIZE: 14px; LINE-HEIGHT: 20px; FONT-FAMILY: "ËÎÌו"
+}
+.at {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 18px; TEXT-DECORATION: none
+}
+LI {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px
+}
+A:link {
+	COLOR: #5675e1
+}
+A:visited {
+	COLOR: #4d68b5
+}
+.bborder {
+	BACKGROUND-COLOR: #b1c8fd
+}
+.btd {
+	BACKGROUND-COLOR: #ebf1ff
+}
+.topinput {
+	FONT-SIZE: 12px; WIDTH: 75px; LINE-HEIGHT: 14px; HEIGHT: 18px
+}
+.ttopname {
+	FONT-SIZE: 15px; COLOR: #ffffff; LINE-HEIGHT: 18px
+}
+.ttop {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.ttop2 {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.tleft {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.leftbg {
+	BACKGROUND-COLOR: #ceddff
+}

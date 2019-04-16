@@ -1,0 +1,7 @@
+C:\Users\jiaha\Desktop\WuYeGuanLi\bin\SmallHouse.dll.config
+C:\Users\jiaha\Desktop\WuYeGuanLi\bin\SmallHouse.dll
+C:\Users\jiaha\Desktop\WuYeGuanLi\bin\SmallHouse.pdb
+C:\Users\jiaha\Desktop\WuYeGuanLi\obj\Debug\SmallHouse.csprojAssemblyReference.cache
+C:\Users\jiaha\Desktop\WuYeGuanLi\obj\Debug\SmallHouse.csproj.CoreCompileInputs.cache
+C:\Users\jiaha\Desktop\WuYeGuanLi\obj\Debug\SmallHouse.dll
+C:\Users\jiaha\Desktop\WuYeGuanLi\obj\Debug\SmallHouse.pdb

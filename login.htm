@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0032)http://xhwu:8888/msami/enter.xsp -->
+<HTML><HEAD><TITLE>登录</TITLE>
+<META http-equiv=Content-Language content=en-us>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="MSHTML 6.00.2600.0" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<STYLE type=text/css>BODY {
+	FONT-SIZE: 9pt; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "System"
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "System"
+}
+</STYLE>
+<LINK href="../css/active.css" type=text/css rel=stylesheet>
+<SCRIPT language=xavascript>
+
+function ok_onclick(){
+	if(myform.user.value == ""){
+		alert("请输入用户名！");
+ 	}
+	else if(myform.password.value == ""){
+		alert("请输入口令！");
+	}
+        else{
+		//window.location = "verify.jsp?user="+myform.user.value+"+password="+myform.password.value;
+    myform.action="verify.jsp";
+    myform.submit;
+	}
+
+}
+
+</SCRIPT>
+
+<SCRIPT language=xavascript>
+function window_onload() {
+   myform.user.focus();   
+}
+
+</SCRIPT>
+</HEAD>
+<BODY background="登录.files/sch-01.gif" onload="return window_onload()">
+<FORM name=myform method=post>
+  <BR>
+  <BR>
+<TABLE cellSpacing=0 borderColorDark=#3300cc cellPadding=0 width=760 
+align=center borderColorLight=#ffffff background="" border=0>
+  <TBODY>
+  <TR>
+    <TD height=435>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+              <TR bgColor=#9999ff> </TR>
+        <TR>
+          <TD width="100%" height=435 background="登录.files/dl.gif"><BR>
+            <P align=center> </P>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+				   <p>&nbsp;</p>
+				   <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <table cellspacing=0 cellpadding=0 width=360 align=right 
+              border=0>
+                    <tbody>
+                      <tr> </tr>
+                      <tr> 
+                        <td width=511 height=75> <div align=center>　 <br>
+                            姓名代码： 
+                            <input size=18 name=user>
+                            <br>
+                            　<br>
+                            登录口令： 
+                            <input type=password size=18 name=password>
+                          </div></td>
+                      </tr>
+                      <tr> 
+                        <td width=511 height=2> <table cellspacing=0 cellpadding=0 width="100%" border=0>
+                            <tbody>
+                              <tr> 
+                                <td width="58%" height=37> <div align=right> 
+                                    <input style="BORDER-RIGHT: #ffffff 2px dashed; BORDER-TOP: #ffffff 2px dashed; BACKGROUND-IMAGE: url(image/gwz-button1.gif); BORDER-LEFT: #ffffff 2px dashed; BORDER-BOTTOM: #ffffff 2px dashed" onClick=ok_onclick() type=submit value=" 提交 " name=ok>
+                                  </div></td>
+                                <td width="4%" height=37>&nbsp; </td>
+                                <td width="38%" height=37><input class=BUTTON style="BORDER-RIGHT: #ffffff 2px dashed; BORDER-TOP: #ffffff 2px dashed; BACKGROUND-IMAGE: url(image/gwz-button1.gif); BORDER-LEFT: #ffffff 2px dashed; BORDER-BOTTOM: #ffffff 2px dashed" type=reset value=" 清除 " name=reset> 
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>&nbsp;</p>
+                  <P align=center> </P></TD></TR>
+              <TR bgColor=#003399> </TR>
+            </TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></BODY></HTML>
